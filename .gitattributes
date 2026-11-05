@@ -1,0 +1,15 @@
+# Auto-detect text files and normalize line endings automatically
+* text=auto
+
+# Force specific text files to always use LF (Linux/Mac standard)
+*.js text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+
+# Force specific text files to always use CRLF (Windows standard)
+*.bat text eol=crlf
+
+# Treat images and assets as binary files so Git doesn't distort them
+*.png binary
+*.jpg binary
+*.gif binary
